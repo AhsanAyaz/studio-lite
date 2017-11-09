@@ -618,7 +618,7 @@ export class Lib {
         }
     }
 
-    static MapOfIndex(map: Map<string, any>, index: number, position: "first" | "last"): string {
+    static MapOfIndex(map: Map<string, any>, index: number, position: "first" | "last"): any {
         var mapJs = map.toJS();
         var mapJsPairs = _.toPairs(mapJs);
         var offset = position == 'first' ? 0 : 1;

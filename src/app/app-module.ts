@@ -54,6 +54,11 @@ import {DashPanel} from "./dashboard/dash-panel";
 import {ServerAvg} from "./dashboard/server-avg";
 import {StorageUsed} from "./dashboard/storage-used";
 import {LiveLogModel} from "../models/live-log-model";
+import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/take';
+import 'rxjs/add/operator/takeWhile';
+import 'rxjs/add/operator/combineLatest';
 
 // import "fabric"; // need to remove if we import via cli
 // import {ScreenTemplate} from "../comps/screen-template/screen-template";

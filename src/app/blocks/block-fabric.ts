@@ -2,6 +2,7 @@ import * as _ from 'lodash';
 import {Lib} from "../../Lib";
 import {BlockService} from "./block-service";
 import {RedPepperService} from "../../services/redpepper.service";
+import "fabric"; // added with cli 1.5
 
 export class BlockFabric extends fabric.Group {
 
